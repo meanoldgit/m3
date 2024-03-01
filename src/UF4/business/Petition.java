@@ -1,5 +1,6 @@
 package UF4.business;
 
-public class Petition {
-    
+public class Petition
+{
+    int quantity;
 }
