@@ -2,5 +2,8 @@ package UF4.business;
 
 public class Petition
 {
-    int quantity;
+    private int quantity;
+
+    public void assignProduct()
+    {}
 }
