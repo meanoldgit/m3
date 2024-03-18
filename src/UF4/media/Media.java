@@ -27,7 +27,9 @@ public class Media {
     }
 
     public static void main(String[] args) {
-        Music nirvana = new Music("", 300, "Nirvana", "Grunge");
-        System.out.println(nirvana.getName());
+        MP3 lakeOfFire = new MP3("Lake of fire", 300, "Nirvana", "Grunge", 2);
+        Ogg chopSuey = new Ogg("Chop Suey", 300, "SOAD", "Metal", 1);
+        System.out.println(lakeOfFire.getName());
+        System.out.println(chopSuey.getName());
     }
 }
