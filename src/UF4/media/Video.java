@@ -5,7 +5,13 @@ public class Video extends Media {
     private String director;
     private String language;
 
+    public Video(String name, int length, String director, String language) {
+        super(name, length);
+        this.director = director;
+        this.language = language;
+    }
 
+    // Getters & Setters.
     public String getDirector() {
         return director;
     }

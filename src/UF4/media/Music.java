@@ -5,6 +5,13 @@ public class Music extends Media {
     private String artist;
     private String genre;
 
+    public Music(String name, int length, String artist, String genre) {
+        super(name, length);
+        this.artist = artist;
+        this.genre = genre;
+    }
+
+    // Getters & Setters.
     public String getArtist() {
         return artist;
     }
