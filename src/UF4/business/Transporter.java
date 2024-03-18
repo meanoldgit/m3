@@ -13,8 +13,13 @@ public class Transporter
         this.licenceNum = licenceNum;
     }
 
-    // Getters & Setters.
+    public void assignOrder(Order order)
+    {}
 
+    public void cancelOrder(Order order)
+    {}
+
+    // Getters & Setters.
     public String getName()
     {
         return name;
@@ -44,11 +49,4 @@ public class Transporter
     {
         this.licenceNum = licenceNum;
     }
-
-
-    public void assignOrder(Order order)
-    {}
-
-    public void cancelOrder(Order order)
-    {}
 }

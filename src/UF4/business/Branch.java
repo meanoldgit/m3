@@ -15,6 +15,24 @@ public class Branch
         this.email = email;
     }
 
+    public void breakTime(Transporter transporter)
+    {}
+
+    public void workTime(Transporter transporter)
+    {}
+
+    public void subscribe(Client client)
+    {}
+    
+    public void unsubscribe(Client client)
+    {}
+
+    public void createOrder(Client client, Transporter transporter, Order order)
+    {}
+
+    public void cancelOrder(Order order)
+    {}
+
     // Getters & Setters.
     public String getName()
     {
@@ -55,22 +73,4 @@ public class Branch
     {
         this.email = email;
     }
-
-    public void breakTime(Transporter transporter)
-    {}
-
-    public void workTime(Transporter transporter)
-    {}
-
-    public void subscribe(Client client)
-    {}
-    
-    public void unsubscribe(Client client)
-    {}
-
-    public void createOrder(Client client, Transporter transporter, Order order)
-    {}
-
-    public void cancelOrder(Order order)
-    {}
 }

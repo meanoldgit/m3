@@ -7,6 +7,7 @@ public class Petition
     public void assignProduct(ProductType product)
     {}
 
+    // Getters & Setters.
     public int getQuantity()
     {
         return quantity;

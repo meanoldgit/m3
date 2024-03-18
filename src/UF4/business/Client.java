@@ -13,6 +13,12 @@ public class Client
         this.licenceNum = licenceNum;
     }
 
+    public void assignOrder(Order order)
+    {}
+
+    public void cancelOrder(Order order)
+    {}
+
     // Getters & Setters.
     public String getName()
     {
@@ -43,11 +49,4 @@ public class Client
     {
         this.licenceNum = licenceNum;
     }
-
-
-    public void assignOrder(Order order)
-    {}
-
-    public void cancelOrder(Order order)
-    {}
 }

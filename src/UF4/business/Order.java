@@ -15,8 +15,13 @@ public class Order
         this.minutes = minutes;
     }
 
-    // Getters & Setters.
+    public void addProduct(Petition petition)
+    {}
 
+    public void cancelOrder(Petition petition)
+    {}
+
+    // Getters & Setters.
     public int getDay()
     {
         return day;
@@ -56,10 +61,4 @@ public class Order
     {
         this.minutes = minutes;
     }
-
-    public void addProduct(Petition petition)
-    {}
-
-    public void cancelOrder(Petition petition)
-    {}
 }
